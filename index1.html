@@ -1,156 +1,116 @@
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="w3.css">
-<body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  
+  <body>
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-teal w3-xlarge w3-padding-16"> <!-- header  w3-top -->
+      <span class="w3-left">Company Name</span> 
+      <span class="w3-right">Time Management</span> 
+    </header> <!-- header -->
 
-<!-- Navigation -->
-<nav class="w3-bar w3-black">
-  <a href="#home" class="w3-button w3-bar-item">Home</a>
-  <a href="#band" class="w3-button w3-bar-item">Band</a>
-  <a href="#tour" class="w3-button w3-bar-item">Tour</a>
-  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
-  <a href="#login" class="w3-button w3-bar-item w3-right">Log In</a>
-</nav>
+    <nav class="w3-bar w3-border w3-black">
+      <!-- <a href="#" class="w3-bar-item w3-button">Default</a> -->
+      <a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-light-grey w3-hover-text-white w3-mobile">Link 1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-mobile">Link 2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-mobile">Link 3</a>
+      <a href="#login" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white w3-right w3-mobile">Log In</a>
+    </nav>
 
-<div class="w3-bar w3-black">
-    <a href="#" class="w3-bar-item w3-button">London</a>
-    <a href="#" class="w3-bar-item w3-button">Paris</a>
-    <a href="#" class="w3-bar-item w3-button w3-right">Tokyo</a>
+    <div class="w3-bar w3-black">
+      <a href="#" class="w3-bar-item w3-button">London</a>
+      <a href="#" class="w3-bar-item w3-button">Paris</a>
+      <a href="#" class="w3-bar-item w3-button w3-right">Tokyo</a>
+    </div>
+
+    <!-- Contact section -->
+    <div class="w3-content">
+      <div class="w3-row w3-margin">
+        <div class="w3-third">
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <br />
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <img src="images/willDO/used_so_far/woman_on_phone.jpg" style="width:100%"> <!-- min-height:200px -->
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <img src="images/willDO/used_so_far/woman_with_laptop.jpg" style="width:100%">
+        </div>
+        <div class="w3-twothird w3-container">
+          <h2>5 Terre</h2>
+          <!-- Contact section -->
+          <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+            <div class="w3-content" style="max-width:600px">
+              <h4 class="w3-center"><b>Contact Me</b></h4>
+              <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
+              <form action="/action_page.php" target="_blank">
+                <div class="w3-section">
+                  <label>Name</label>
+                  <input class="w3-input w3-border" type="text" name="Name" required>
+                </div>
+                <div class="w3-section">
+                  <label>Email</label>
+                  <input class="w3-input w3-border" type="text" name="Email" required>
+                </div>
+                <div class="w3-section">
+                  <label>Message</label>
+                  <input class="w3-input w3-border" type="text" name="Message" required>
+                </div>
+                <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div> <!-- end of class="w3-twothird w3-container" -->
+      </div>
+    </div> <!-- end of the contact section -->
+
+
+  <!-- begining of the footer section -->
+  <div class="w3-row w3-container w3-grey">
+    <div class="w3-col m2 w3-center"> <!-- w3-green -->
+      <p>m2</p>
+    </div>
+    <div class="w3-col m2 w3-center"> <!-- w3-red -->
+      <p>m2</p>
+    </div>
+    <div class="w3-col m2 w3-center"> 
+      <p>m2</p>
+      <h4>About</h4>
+      <p><a href="#">About us</a></p>
+      <p><a href="#">We're hiring</a></p>
+      <p><a href="#">Support</a></p>
+      <p><a href="#">Find store</a></p>
+      <p><a href="#">Shipment</a></p>
+      <p><a href="#">Payment</a></p>
+      <p><a href="#">Gift card</a></p>
+      <p><a href="#">Return</a></p>
+      <p><a href="#">Help</a></p>
+    </div>
+    <div class="w3-col m2 w3-center">
+      <p>m2</p>
+      <h4>Store</h4>
+      <p><i class="fa fa-fw fa-map-marker"></i> Blue Danube</p>
+      <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
+      <p><i class="fa fa-fw fa-envelope"></i> ex@mail.com</p>
+      <h4>We accept</h4>
+      <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+      <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+      <br>
+      <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+      <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+      <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+      <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+      <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+    </div>
+    <div class="w3-col m2 w3-center">
+      <p>m2</p>
+    </div>
+    <div class="w3-col m2 w3-center">
+      <p>m2</p>
+    </div>
   </div>
-
-<!-- Contact section -->
-<div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
-    <div class="w3-content" style="max-width:600px">
-      <h4 class="w3-center"><b>Contact Me</b></h4>
-      <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-section">
-          <label>Name</label>
-          <input class="w3-input w3-border" type="text" name="Name" required>
-        </div>
-        <div class="w3-section">
-          <label>Email</label>
-          <input class="w3-input w3-border" type="text" name="Email" required>
-        </div>
-        <div class="w3-section">
-          <label>Message</label>
-          <input class="w3-input w3-border" type="text" name="Message" required>
-        </div>
-        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
-      </form>
-    </div>
-  </div>
-
-  <!-- for the FOOTER use the grid.html -->
-
-    <footer class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
-    <div class="w3-third w3-container w3-green">
-        <h2>w3-third</h2> 
-    </div>
-    <div class="w3-third w3-container w3-green">
-            <div class="w3-row-padding">
-                    <div class="w3-col s2"> <!-- s2 changes the number of column whee the content is displayed -->
-                      <h4>Contact</h4>
-                      <p>Questions? Go ahead.</p>
-                      <form action="/action_page.php" target="_blank">
-                        <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
-                        <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
-                        <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
-                        <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
-                        <button type="submit" class="w3-button w3-block w3-black">Send</button>
-                      </form>
-                    </div>
-              
-                    <div class="w3-col s4">
-                      <h4>About</h4>
-                      <p><a href="#">About us</a></p>
-                      <p><a href="#">We're hiring</a></p>
-                      <p><a href="#">Support</a></p>
-                      <p><a href="#">Find store</a></p>
-                      <p><a href="#">Shipment</a></p>
-                      <p><a href="#">Payment</a></p>
-                      <p><a href="#">Gift card</a></p>
-                      <p><a href="#">Return</a></p>
-                      <p><a href="#">Help</a></p>
-                    </div>
-              
-                    <div class="w3-col s4 w3-justify">  
-                      <h4>Store</h4>
-                      <p><i class="fa fa-fw fa-map-marker"></i> Company Name</p>
-                      <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
-                      <p><i class="fa fa-fw fa-envelope"></i> ex@mail.com</p>
-                      <h4>We accept</h4>
-                      <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
-                      <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
-                      <br>
-                      <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
-                      <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
-                      <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
-                      <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
-                      <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
-                      <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
-                    </div>
-                  </div>
-    </div>
-
-    <div class="w3-third w3-container w3-green">
-        <h2>w3-third</h2> 
-    </div>
-
-    <!-- <div class="w3-content" style="max-width:300px">
-        <h4 class="w3-center"><b>Contact Me</b></h4>
-        <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
-    </div> -->
-    </footer>
-
-<!-- Footer 
-<footer class="w3-container  w3-light-grey w3-small w3-padding-64 w3-center" id="footer" > 
-    <div class="w3-row-padding">
-      <div class="w3-col s2"> <!- s2 changes the number of column whee the content is displayed ->
-        <h4>Contact</h4>
-        <p>Questions? Go ahead.</p>
-        <form action="/action_page.php" target="_blank">
-          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
-          <button type="submit" class="w3-button w3-block w3-black">Send</button>
-        </form>
-      </div>
-
-      <div class="w3-col s4">
-        <h4>About</h4>
-        <p><a href="#">About us</a></p>
-        <p><a href="#">We're hiring</a></p>
-        <p><a href="#">Support</a></p>
-        <p><a href="#">Find store</a></p>
-        <p><a href="#">Shipment</a></p>
-        <p><a href="#">Payment</a></p>
-        <p><a href="#">Gift card</a></p>
-        <p><a href="#">Return</a></p>
-        <p><a href="#">Help</a></p>
-      </div>
-
-      <div class="w3-col s4 w3-justify">  <!-   ->
-        <h4>Store</h4>
-        <p><i class="fa fa-fw fa-map-marker"></i> Company Name</p>
-        <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
-        <p><i class="fa fa-fw fa-envelope"></i> ex@mail.com</p>
-        <h4>We accept</h4>
-        <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
-        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
-        <br>
-        <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
-        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
-        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
-        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
-        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
-      </div>
-    </div>
-  </footer>
--->
-</body>
+  <!-- end of the footer section -->
+  </body>
 </html>
